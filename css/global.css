@@ -101,6 +101,13 @@ p {
   font-size: 1.25rem;
 }
 
+.text2
+{
+
+  font-size: 1.25rem;
+
+}
+
 body.post header {
   background-color: var(---grey);
   height: 60px;
