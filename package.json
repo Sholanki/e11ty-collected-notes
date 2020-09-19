@@ -11,6 +11,8 @@
     "@11ty/eleventy": "^0.11.0"
   },
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+	"@tailwindcss/typography": "^0.2.0",
+	"tailwindcss": "^1.6.2"
   }
 }
