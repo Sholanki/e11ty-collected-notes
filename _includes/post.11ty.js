@@ -31,7 +31,7 @@ module.exports = (data) => {
 		  }
 		</script>
 		<script src="https://hypothes.is/embed.js" async></script>
-		<script>
+		
             <header>
                 <a href="${data.page.url === '/blog/' ? '/' : '/blog/'}">&larr; back</a>
             </header>

@@ -16,7 +16,7 @@ module.exports = ({ content }) => /*html*/`
 		  }
 		</script>
 		<script src="https://hypothes.is/embed.js" async></script>
-  <script>
+  
 		<div class="topnav">
 			
 		<div class="topnav-right">
