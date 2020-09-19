@@ -28,21 +28,21 @@ module.exports = ({ content }) => /*html*/`
       onSubmit={submitAction}
     >
       <div className="grid grid-cols-3 grid-rows-1 space-x-1 gap-1">
-        <label className="max-w-xs self-end text-right" htmlFor="bd-email">
+        <label class="max-w-xs self-end text-right" htmlFor="bd-email">
           subscribe to the newsletter
         </label>
         <input
           type="email"
           name="email"
           id="bd-email"
-          className="border border-black"
+          class="border border-black"
         />
         <input type="hidden" value="1" name="embed" />
 
         <input
           type="submit"
           value="Subscribe"
-          className="text-black rounded-sm bg-gray-300 font-medium"
+          class="text-black rounded-sm bg-gray-300 font-medium"
         />
       </div>
     </form>
