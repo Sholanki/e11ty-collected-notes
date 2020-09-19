@@ -156,7 +156,6 @@ body.post footer a.next {
 .topnav {
   overflow: hidden;
   background-color: #333;
-  position: static;
 top: 50px;
 right: 0px;
 display: inline-block;
