@@ -25,6 +25,11 @@ module.exports = (data) => {
     </head>
 		
         <body class="post">
+		<script type="application/json" class="js-hypothesis-config">
+		  {
+			"openSidebar": false
+		  }
+		</script>
             <header>
                 <a href="${data.page.url === '/blog/' ? '/' : '/blog/'}">&larr; back</a>
             </header>

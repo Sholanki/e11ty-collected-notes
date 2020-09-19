@@ -10,6 +10,11 @@ module.exports = ({ content }) => /*html*/`
         <meta name="description" content="A template for 11ty site builder and collected notes."/>
     </head>
         <body>
+		<script type="application/json" class="js-hypothesis-config">
+		  {
+			"openSidebar": false
+		  }
+		</script>
 		<div class="topnav">
 			
 		<div class="topnav-right">
