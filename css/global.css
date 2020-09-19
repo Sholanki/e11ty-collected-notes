@@ -56,13 +56,13 @@ a {
 }
 
 .button {	
-  --btn-bg-color: var(--grey);
+  --btn-bg-color: var(--black);
   font-weight: bold;
   color: currentColor;
   text-decoration: none;
   background-color: var(--btn-bg-color);
-  border-radius: 100vh;
   padding: 1em 1em;
+  font-size: 1rem;
 
 }
 
