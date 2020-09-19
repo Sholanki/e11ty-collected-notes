@@ -9,10 +9,8 @@ module.exports = ({ content }) => /*html*/`
         <meta name="description" content="A template for 11ty site builder and collected notes."/>
     </head>
         <body>
-		<div class="topnav">
-			<a href="#" style="display: block;">Dummy</a>
-			<a href="#" style="display: block;">Dummy</a>
-			<a href="#" style="display: block;">Dummy</a>
+		<div class="topnav" style="float: right">
+			
 		<div class="topnav-right">
 		  <a href="/blog">Blog</a>
 		  <a class="active" href="#">About</a>
