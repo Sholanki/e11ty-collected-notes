@@ -45,10 +45,6 @@ module.exports = ({ content }) => /*html*/`
         />
       </div>
     </form>
-  <label for="bd-email">Enter your email</label>
-  <input type="email" name="email" id="bd-email"></input>
-  <input type="hidden" value="1" name="embed"></input>
-  <input type="submit" value="Subscribe"></input>
-  </form>
+  
     </html>
 `;
