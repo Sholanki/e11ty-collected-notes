@@ -27,7 +27,7 @@ module.exports = ({ content }) => /*html*/`
       target="popupwindow"
       onSubmit={submitAction}
     >
-      <div className="grid grid-cols-3 grid-rows-1 space-x-1 gap-1">
+      <div class="grid grid-cols-3 grid-rows-1 space-x-1 gap-1">
         <label class="max-w-xs self-end text-right" htmlFor="bd-email">
           subscribe to the newsletter
         </label>
