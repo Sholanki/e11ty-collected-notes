@@ -17,7 +17,16 @@ module.exports = ({ content }) => /*html*/`
 		  }
 		</script>
 		<script src="https://hypothes.is/embed.js" async></script>
-		
+		<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
   
 		<div class="topnav" id="myTopnav">
 			
@@ -25,7 +34,8 @@ module.exports = ({ content }) => /*html*/`
 		<a class="active" href="#">About</a>
 		  <a href="/blog">Blog</a>
 		  
-		  
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
   </a>
 		  </div>
 		</div>
