@@ -23,6 +23,13 @@ module.exports = (data) => {
         <meta name="description" content="${headline}"/>
         <link rel="stylesheet" href="/css/global.css" />
     </head>
+		<div class="topnav" style="float: right">
+			
+		<div class="topnav-right">
+		  <a class="active" href="/blog">Blog</a>
+		  <a href="#">About</a>
+		  </div>
+		</div>
         <body class="post">
             <header>
                 <a href="${data.page.url === '/blog/' ? '/' : '/blog/'}">&larr; back</a>
