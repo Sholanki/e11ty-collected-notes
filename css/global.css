@@ -55,6 +55,17 @@ a {
   padding: 1em 1.25em;
 }
 
+.button {	
+  --btn-bg-color: var(--grey);
+  font-weight: bold;
+  color: currentColor;
+  text-decoration: none;
+  background-color: var(--btn-bg-color);
+  border-radius: 100vh;
+  padding: 1em 1em;
+
+}
+
 h1 {
   font-size: 3.25rem;
   font-weight: bold;
