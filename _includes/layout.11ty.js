@@ -28,7 +28,8 @@ module.exports = ({ content }) => /*html*/`
       onSubmit={submitAction}
     >
       <div class="grid grid-cols-3 grid-rows-1 space-x-1 gap-1" style="padding-bottom: 50px;">
-        <label class="text2 text-right" htmlFor="bd-email">
+        <label class="text2 text-right" htmlFor="bd-email" style="display: flex;
+    align-items: center;">
           subscribe to the newsletter
         </label>
         <input
