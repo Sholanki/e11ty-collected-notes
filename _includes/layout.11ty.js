@@ -10,8 +10,10 @@ module.exports = ({ content }) => /*html*/`
     </head>
         <body>
 		<div class="topnav">
-		  <a class="active" href="/blog">Blog</a>
-		  <a href="#">About</a>
+		<div class="topnav-right">
+		  <a href="/blog">Blog</a>
+		  <a class="active" href="#">About</a>
+		  </div>
 		</div>
             <main>
                 ${content}
