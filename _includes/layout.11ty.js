@@ -5,6 +5,7 @@ module.exports = ({ content }) => /*html*/`
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>My 11ty Site</title>
         <link rel="stylesheet" href="/css/global.css" />
         <meta name="description" content="A template for 11ty site builder and collected notes."/>
@@ -16,12 +17,25 @@ module.exports = ({ content }) => /*html*/`
 		  }
 		</script>
 		<script src="https://hypothes.is/embed.js" async></script>
+		<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
   
-		<div class="topnav">
+		<div class="topnav" id="myTopnav">
 			
 		<div class="topnav-right">
 		  <a href="/blog">Blog</a>
 		  <a class="active" href="#">About</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 		  </div>
 		</div>
             <main>
