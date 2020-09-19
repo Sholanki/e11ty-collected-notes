@@ -24,9 +24,6 @@ module.exports = ({ content }) => /*html*/`
   <input type="email" name="email" id="bd-email"></input>
   <input type="hidden" value="1" name="embed"></input>
   <input type="submit" value="Subscribe"></input>
-  <p>
-    <a href="https://buttondown.email" target="_blank">Powered by Buttondown.</a>
-  </p>
-</form>
+  </form>
     </html>
 `;
