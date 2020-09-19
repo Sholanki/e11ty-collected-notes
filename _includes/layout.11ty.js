@@ -31,8 +31,9 @@ function myFunction() {
 		<div class="topnav" id="myTopnav">
 			
 		<div class="topnav-right">
+		<a class="active" href="#">About</a>
 		  <a href="/blog">Blog</a>
-		  <a class="active" href="#">About</a>
+		  
 		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
